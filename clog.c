@@ -5,7 +5,9 @@
  * Distributed under terms of the MIT license.
  */
 
+#ifndef _POSIX_C_SOURCE
 #define _POSIX_C_SOURCE 1
+#endif
 
 #include "clog.h"
 #include <stdarg.h>
